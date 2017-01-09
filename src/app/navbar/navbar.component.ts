@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
+  branding:string = "Ng2 Website";
+
   constructor() { }
 
   ngOnInit() {
